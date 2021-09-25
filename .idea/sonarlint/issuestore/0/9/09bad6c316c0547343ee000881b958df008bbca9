@@ -1,0 +1,10 @@
+
+5
+java:S1659"Declare "n" on a separate line.(î…½²
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(¾‰Ç€ÿÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(ØÏº¸ÿÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
+)
+java:S1700"Rename field "text"(ÁŸãª
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õ¯Ð—

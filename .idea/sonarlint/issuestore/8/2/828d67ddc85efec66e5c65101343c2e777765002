@@ -1,0 +1,10 @@
+
+J
+java:S3740$"/Provide the parametrized type for this generic.(Î‚±…ûÿÿÿÿ
+R
+java:S1854$"7Remove this useless assignment to local variable "dfs".(Î‚±…ûÿÿÿÿ
+C
+java:S1481$"(Remove this unused "dfs" local variable.(Î‚±…ûÿÿÿÿ
+Q	java:S125&"<This block of commented-out lines of code should be removed.(Žñˆ¶
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(ù†Éä
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÌçÉ

@@ -1,0 +1,8 @@
+
+=
+java:S1659
+"'Declare "secondPos" on a separate line.(íËö³
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(„ô¶Ð
+n	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Û’öõ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í†…¦
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æš£¾þÿÿÿÿ

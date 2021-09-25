@@ -1,0 +1,12 @@
+
+[
+java:S11242"EReorder the modifiers to comply with the Java Language Specification.(ÃÁığ
+l
+java:S42762"VRefactor this code to use the more specialised Functional Interface 'IntFunction<Set>'(ÃÁığ
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(ÒÎˆÓ
+`
+java:S11248"EReorder the modifiers to comply with the Java Language Specification.(ÄÆâ…ıÿÿÿÿ
+s
+java:S4276<"]Refactor this code to use the more specialised Functional Interface 'BinaryOperator<Integer>'(€™È˜
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(ÒÎˆÓ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÔÒÁ
