@@ -35,7 +35,7 @@ public class NumberToWord {
     }
 
     public String nameOfDigit(Integer number) {
-        
+
         int rest = number % 100;
 
         String words = "";
