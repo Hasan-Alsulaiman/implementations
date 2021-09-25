@@ -14,11 +14,49 @@ class NumberToWordTest {
         int number = 1999;
 
         // when
-        String resutl = underTest.namesOf(number);
+        String actual = underTest.namesOf(number);
 
         //then
         String expected = "one thousand nine hundred and ninety-nine";
-        assertEquals(expected, resutl.strip());
+        assertEquals(expected, actual.strip());
     }
+
+    @Test
+    void canFormatHundreds() {
+        // given
+        int number = 100;
+
+        // when
+        String actual = underTest.formatHundreds(number).strip();
+
+        // then
+        assertEquals("one hundred", actual);
+    }
+
+    @Test
+    void canFormatTensAndOnesLessThan20() {
+        // given
+        int number = 111;
+
+        // when
+        String actual = underTest.formatLessThan20(number).strip();
+
+        // then
+        assertEquals("eleven", actual);
+    }
+
+    @Test
+    void canFormatTensAndOnesMoreThan19() {
+        // given
+        int number = 123;
+
+        // when
+        String actual = underTest.formatMoreThan19(number).strip();
+
+        // then
+        assertEquals("twenty-three", actual);
+    }
+
+
 
 }
